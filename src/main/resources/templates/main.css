@@ -1,0 +1,40 @@
+header > h1 {
+	text-align: center;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-flow: column;
+  margin: 0 20px 0 20px;
+}
+
+.top-nav-bar {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+  justify-content: center;
+  background-color: #aaa;
+}
+
+.top-nav-bar > a {
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top-nav-bar > a:hover {
+  background-color: #ddd;
+}
+
+.content {
+  padding: 20px 0 20px;
+  min-height: 100px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+footer {
+  background-color: #aaa;
+  text-align: center;
+}
