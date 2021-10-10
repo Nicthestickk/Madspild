@@ -1,0 +1,55 @@
+header h1 {
+  text-shadow: 2px 2px 5px #aaa; /* offset-x | offset-y | blur-radius | color */
+  padding-bottom: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+.photo-description {
+  margin: 0;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-flow: column;
+  margin: 0 20px;
+}
+
+.top-navigation {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  background-color: #bbb;
+}
+
+.top-navigation a {
+  color: blue;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+.top-navigation a:hover {
+  background-color: #ddd;
+}
+/* underline menu item for displayed page*/
+#frontpage .top-navigation .frontpage,
+#recipes .top-navigation .recipes,
+#facts .top-navigation .facts,
+#contact .top-navigation .contact {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  background-color: #aaa;
+  text-align: center;
+}

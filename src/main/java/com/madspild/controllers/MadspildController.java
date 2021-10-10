@@ -11,5 +11,19 @@ public class MadspildController {
         return "index";
     }
 
+    @GetMapping("/recipes")
+    public String recipes() {
+        return "recipes";
+    }
+
+    @GetMapping("/facts")
+    public String facts() {
+        return "facts";
+    }
+
+    @GetMapping("/contact")
+    public String contact() {
+        return "contact";
+    }
 
 }

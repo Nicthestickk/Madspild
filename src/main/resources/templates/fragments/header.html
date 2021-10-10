@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="commonHead">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:include=":: #title">Madspild</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header th:fragment="commonHeader">
+        <h1 class="center">Velkommen til madspild!</h1>
+        <nav class="top-navigation">
+            <a class="frontpage" href="/">Forside</a>
+            <a class="recipes" href="/recipes">Opskrifter</a>
+            <a class="facts" href="/facts">Fakta</a>
+            <a class="contact" href="/contact">Kontakt</a>
+        </nav>
+    </header>
+</body>
+</html>
