@@ -1,6 +1,6 @@
-header h1 {
-  text-shadow: 2px 2px 5px #aaa; /* offset-x | offset-y | blur-radius | color */
-  padding-bottom: 5px;
+
+html {
+  background-color: #555;
 }
 
 .center {
@@ -8,6 +8,8 @@ header h1 {
 }
 
 .photo-description {
+  font-size: 13px;
+  color: #333;
   margin: 0;
 }
 
@@ -29,10 +31,12 @@ header h1 {
   text-align: center;
   padding: 14px 25px;
   text-decoration: none;
+  transition: background-color 1s ease;
 }
 
 .top-navigation a:hover {
   background-color: #ddd;
+  text-decoration: underline;
 }
 /* underline menu item for displayed page*/
 #frontpage .top-navigation .frontpage,
@@ -56,4 +60,35 @@ footer {
 #contact-pic{
   position: absolute;
   width: 300px;
+}
+
+@keyframes move-title {
+  0%  { left: 0; }
+  10%  { left: -15%; }
+  50%  { left: 25%; }
+  75%  { left: -15%; }
+  100% { left: 0%; }
+}
+
+header h1 {
+  text-shadow: 2px 2px 5px #aaa; /* offset-x | offset-y | blur-radius | color */
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+}
+/* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+header h1:hover {
+  animation: move-title 2s linear;
+}
+
+@keyframes shake {
+  0%   { left: 0px; }
+  25%  { left: 50px; }
+  50%  { left: -50px; }
+  75%  { left: 50px; }
+  100% { left: 0px; }
+}
+.shake-on-hover:hover {
+  position: relative;
+  animation: shake 0.5s cubic-bezier(.4,.1,.6,.9);
 }
