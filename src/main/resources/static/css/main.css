@@ -1,6 +1,6 @@
 
 html {
-  background-color: #555;
+  background-color: #888;
 }
 
 .center {
@@ -24,12 +24,13 @@ html {
   flex-flow: row;
   justify-content: center;
   background-color: #bbb;
+  border-radius: 10px 10px 0 0;
 }
 
 .top-navigation a {
   color: blue;
   text-align: center;
-  padding: 14px 25px;
+  padding: 13px 25px;
   text-decoration: none;
   transition: background-color 1s ease;
 }
@@ -56,6 +57,7 @@ footer {
   padding: 10px;
   background-color: #aaa;
   text-align: center;
+  border-radius: 0 0 10px 10px;
 }
 #contact-pic{
   position: absolute;
