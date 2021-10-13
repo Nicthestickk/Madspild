@@ -7,12 +7,21 @@ header h1 {
 	text-align: center;
 }
 
+ photo-to-the-left {
+   float: left;
+   width: 30%;
+   height: 300px;
+   background: #ccc;
+   padding: 20px;
+   box-sizing: border-box;
+
+}
+
 .photo-description {
   margin: 0;
 }
 
 .main-wrapper {
-  display: flex;
   flex-flow: column;
   margin: 0 20px;
 }
@@ -41,6 +50,26 @@ header h1 {
 #contact .top-navigation .contact {
   text-decoration: underline;
 }
+.rec {
+  background-color: #ddd;
+}
+ ingredients {
+  float: left;
+  padding: 20px;
+  width: 30%;
+  background-color: #f1f1f1;
+  height: 300px;
+   box-sizing: border-box;
+}
+ tilberedning {
+   float: left;
+   padding: 20px;
+   width: 40%;
+   background-color: #ffffff;
+   height: 300px;
+   box-sizing: border-box;
+
+ }
 
 .content {
   padding: 52px;
