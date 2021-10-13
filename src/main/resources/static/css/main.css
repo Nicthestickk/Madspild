@@ -1,10 +1,15 @@
 
 html {
-  background-color: #888;
+  background-color: #2d3e60;
 }
 
 .center {
 	text-align: center;
+}
+/* make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .photo-description {
@@ -39,12 +44,13 @@ html {
   background-color: #ddd;
   text-decoration: underline;
 }
-/* underline menu item for displayed page*/
+/* underline and bold for menu item for displayed page*/
 #frontpage .top-navigation .frontpage,
 #recipes .top-navigation .recipes,
 #facts .top-navigation .facts,
 #contact .top-navigation .contact {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .content {
@@ -59,6 +65,7 @@ footer {
   text-align: center;
   border-radius: 0 0 10px 10px;
 }
+
 #contact-pic{
   position: absolute;
   width: 300px;
@@ -73,7 +80,8 @@ footer {
 }
 
 header h1 {
-  text-shadow: 2px 2px 5px #aaa; /* offset-x | offset-y | blur-radius | color */
+  color: #c8bdbd;
+  text-shadow: 2px 2px 5px #000; /* offset-x | offset-y | blur-radius | color */
   padding-bottom: 10px;
   position: relative;
   text-align: center;
