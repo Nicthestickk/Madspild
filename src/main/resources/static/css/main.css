@@ -104,7 +104,7 @@ ui {
   width: 300px;
   height: auto;
 }
-.social-medie{
+.social-media{
   color: black;
   font-size: 30px;
   text-transform: uppercase;
@@ -114,13 +114,13 @@ ui {
   display: table;
   transition: background-color 1s ease;
 }
-.social-medie:hover{
+.social-media:hover{
   background-color: #bbb;
 }
-.social-medie:not(:last-child){
+.social-media:not(:last-child){
   margin-bottom: 15px;
 }
-.social-medie:before{
+.social-media:before{
   content: "\1F30D";
 }
 
