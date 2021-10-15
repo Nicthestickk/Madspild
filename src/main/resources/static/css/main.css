@@ -118,6 +118,21 @@ ul {
 .social-media:before{
   content: "\1F30D";
 }
+#facts .box {
+
+
+  width: 400px ;
+  border: 5px groove aliceblue;
+  padding: 25px;
+  margin: auto;
+  transition: background-color 1s ease;
+}
+
+#facts .box:hover{
+  background-color: #bbb;
+
+}
+
 
 @keyframes move-title {
   0%  { left: 0; }
